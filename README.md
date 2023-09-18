@@ -7,6 +7,10 @@
 - You can change the credentials in the ```credentials.ts``` file in the root directory
 - the output csv files are found in the ```/output``` directory. Each page is a different file
 
+### WHENEVER THE REQUESTS TIME OUT OR FAIL
+- you can check the console to see which page has failed
+- change the ```START_PAGE``` variable in the ```index.ts``` file to the page that the request failed in
+
 ### Get and export products to csv in an ecwid format
 ```
 yarn go
