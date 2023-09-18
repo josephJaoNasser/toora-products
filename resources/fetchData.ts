@@ -70,24 +70,25 @@ async function getProduct(
  */
 export default async function getAndOutputAllProducts(
   startPage: number = 1,
-  pageSize: number = 100
+  pageSize: number = 100,
+  outputDir: string = "output"
 ) {
-  const PAGE_SIZE = 100;
-  const START_PAGE = 1;
+  const PAGE_SIZE = pageSize;
+  const START_PAGE = startPage;
 
   let totalPages = 1;
 
   try {
     const firstResponse = await getProduct(PAGE_SIZE, START_PAGE);
     console.log("outputting csv for page " + START_PAGE);
-    outputCsv(firstResponse, START_PAGE);
+    outputCsv(firstResponse, START_PAGE, outputDir);
 
     totalPages = Math.ceil(firstResponse.total_count / PAGE_SIZE);
 
     for (let i = START_PAGE + 1; i <= totalPages; i++) {
       await getProduct(PAGE_SIZE, i, totalPages).then((res) => {
         console.log("outputting csv for page " + i);
-        outputCsv(res, i);
+        outputCsv(res, i, outputDir);
       });
     }
   } catch (e) {

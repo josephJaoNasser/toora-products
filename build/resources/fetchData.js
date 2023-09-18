@@ -120,16 +120,17 @@ function getProduct(pageSize, pageNumber, totalPages) {
 /**
  * Get all products and output as csv
  */
-function getAndOutputAllProducts(startPage, pageSize) {
+function getAndOutputAllProducts(startPage, pageSize, outputDir) {
     if (startPage === void 0) { startPage = 1; }
     if (pageSize === void 0) { pageSize = 100; }
+    if (outputDir === void 0) { outputDir = "output"; }
     return __awaiter(this, void 0, void 0, function () {
         var PAGE_SIZE, START_PAGE, totalPages, firstResponse, _loop_1, i, e_2;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    PAGE_SIZE = 100;
-                    START_PAGE = 1;
+                    PAGE_SIZE = pageSize;
+                    START_PAGE = startPage;
                     totalPages = 1;
                     _a.label = 1;
                 case 1:
@@ -138,14 +139,14 @@ function getAndOutputAllProducts(startPage, pageSize) {
                 case 2:
                     firstResponse = _a.sent();
                     console.log("outputting csv for page " + START_PAGE);
-                    (0, toptextToEcwidCsv_1.default)(firstResponse, START_PAGE);
+                    (0, toptextToEcwidCsv_1.default)(firstResponse, START_PAGE, outputDir);
                     totalPages = Math.ceil(firstResponse.total_count / PAGE_SIZE);
                     _loop_1 = function (i) {
                         return __generator(this, function (_b) {
                             switch (_b.label) {
                                 case 0: return [4 /*yield*/, getProduct(PAGE_SIZE, i, totalPages).then(function (res) {
                                         console.log("outputting csv for page " + i);
-                                        (0, toptextToEcwidCsv_1.default)(res, i);
+                                        (0, toptextToEcwidCsv_1.default)(res, i, outputDir);
                                     })];
                                 case 1:
                                     _b.sent();

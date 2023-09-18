@@ -243,12 +243,22 @@ function convertToCsv(convertedProducts: EcwidProduct[]): string {
 /**
  * Save csv into a folder
  */
-function outputCsv(products: typeof productSample, page: number = 1) {
-  const OUTPUT_FOLDER = "output";
+function outputCsv(
+  products: typeof productSample,
+  page: number = 1,
+  outputDir: string = "output"
+) {
+  const OUTPUT_FOLDER = outputDir;
 
   const convertedProducts = convertToEcwid(products);
   const csvData = convertToCsv(convertedProducts);
   const rootPath = path.resolve(__dirname, "../../");
+  const outputFolder = path.join(rootPath, OUTPUT_FOLDER);
+
+  if (!fs.existsSync(outputFolder)) {
+    fs.mkdirSync(outputFolder);
+  }
+
   const outputPath = path.join(
     rootPath,
     OUTPUT_FOLDER,

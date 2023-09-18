@@ -211,12 +211,17 @@ function convertToCsv(convertedProducts) {
 /**
  * Save csv into a folder
  */
-function outputCsv(products, page) {
+function outputCsv(products, page, outputDir) {
     if (page === void 0) { page = 1; }
-    var OUTPUT_FOLDER = "output";
+    if (outputDir === void 0) { outputDir = "output"; }
+    var OUTPUT_FOLDER = outputDir;
     var convertedProducts = convertToEcwid(products);
     var csvData = convertToCsv(convertedProducts);
     var rootPath = path.resolve(__dirname, "../../");
+    var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
+    if (!fs.existsSync(outputFolder)) {
+        fs.mkdirSync(outputFolder);
+    }
     var outputPath = path.join(rootPath, OUTPUT_FOLDER, "data-page-".concat(page, ".csv"));
     fs.writeFileSync(outputPath, csvData, { encoding: "utf8" });
 }
