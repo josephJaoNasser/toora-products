@@ -44,7 +44,7 @@ const LANG = "nl";
  */
 function generateRandomID(length) {
   const charset =
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    "123456789";
   let id = "";
   for (let i = 0; i < length; i++) {
     const randomIndex = Math.floor(Math.random() * charset.length);
@@ -65,8 +65,11 @@ function convertToEcwid(products: typeof productSample): EcwidProduct[] {
     const product = {
       type: ProductTypes.PRODUCT,
       product_internal_id: generateRandomID(16),
+      product_price: item.colors[0].sizes[0].publicUnitPrice
+        .replace(",", ".")
+        .replace(/[^\d.,]/g, ""),
       product_name: item.designation[LANG],
-      product_description: item.description[LANG],
+      product_description: `<p>${item.description[LANG]}</p>`,
       product_media_main_image_url: item.images[0]?.url
         ? item.images[0]?.url
         : "",
@@ -163,6 +166,8 @@ function convertToCsv(convertedProducts: EcwidProduct[]): string {
         !keys.includes(key)
     );
 
+    keys = [...keys, ...productRootKeys];
+
     let productOptionKeys;
     let productVariationKeys;
     for (const option of product.product_options) {
@@ -177,12 +182,7 @@ function convertToCsv(convertedProducts: EcwidProduct[]): string {
       );
     }
 
-    keys = [
-      ...keys,
-      ...productRootKeys,
-      ...productVariationKeys,
-      ...productOptionKeys,
-    ];
+    keys = [...keys, ...productVariationKeys, ...productOptionKeys];
   }
 
   let csv = keys.join(",") + "\n";

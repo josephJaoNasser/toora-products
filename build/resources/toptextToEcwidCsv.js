@@ -35,7 +35,7 @@ var LANG = "nl";
  * @returns
  */
 function generateRandomID(length) {
-    var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    var charset = "123456789";
     var id = "";
     for (var i = 0; i < length; i++) {
         var randomIndex = Math.floor(Math.random() * charset.length);
@@ -56,8 +56,11 @@ function convertToEcwid(products) {
         var product = {
             type: ProductTypes.PRODUCT,
             product_internal_id: generateRandomID(16),
+            product_price: item.colors[0].sizes[0].publicUnitPrice
+                .replace(",", ".")
+                .replace(/[^\d.,]/g, ""),
             product_name: item.designation[LANG],
-            product_description: item.description[LANG],
+            product_description: "<p>".concat(item.description[LANG], "</p>"),
             product_media_main_image_url: ((_a = item.images[0]) === null || _a === void 0 ? void 0 : _a.url)
                 ? (_b = item.images[0]) === null || _b === void 0 ? void 0 : _b.url
                 : "",
@@ -138,6 +141,7 @@ function convertToCsv(convertedProducts) {
                 key !== "product_variations" &&
                 !keys.includes(key);
         });
+        keys = __spreadArray(__spreadArray([], keys, true), productRootKeys, true);
         var productOptionKeys = void 0;
         var productVariationKeys = void 0;
         for (var _a = 0, _b = product.product_options; _a < _b.length; _a++) {
@@ -148,7 +152,7 @@ function convertToCsv(convertedProducts) {
             var variant = _d[_c];
             productVariationKeys = Object.keys(variant).filter(function (key) { return !keys.includes(key); });
         }
-        keys = __spreadArray(__spreadArray(__spreadArray(__spreadArray([], keys, true), productRootKeys, true), productVariationKeys, true), productOptionKeys, true);
+        keys = __spreadArray(__spreadArray(__spreadArray([], keys, true), productVariationKeys, true), productOptionKeys, true);
     }
     var csv = keys.join(",") + "\n";
     var rows = [];
