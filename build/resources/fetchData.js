@@ -39,6 +39,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var axios_1 = require("axios");
 var toptextToEcwidCsv_1 = require("./toptextToEcwidCsv");
 var credentials_1 = require("../credentials");
+var params_1 = require("../params");
+var fsUtils_1 = require("./fsUtils");
 var apiUrl = "https://api.toptex.io/v3";
 var config = {
     headers: {
@@ -76,38 +78,42 @@ function authenticate() {
  * @returns
  */
 function getProduct(pageSize, pageNumber, totalPages) {
-    var _a;
+    var _a, _b;
     return __awaiter(this, void 0, void 0, function () {
         var fetchFn, response, e_1, err, response;
-        return __generator(this, function (_b) {
-            switch (_b.label) {
+        return __generator(this, function (_c) {
+            switch (_c.label) {
                 case 0:
                     console.log("getting page " + pageNumber + " of " + totalPages);
                     fetchFn = function () {
                         return axios_1.default.get("".concat(apiUrl, "/products/all?usage_right=b2b_b2c&page_size=").concat(pageSize, "&page_number=").concat(pageNumber), config);
                     };
-                    _b.label = 1;
+                    _c.label = 1;
                 case 1:
-                    _b.trys.push([1, 5, , 9]);
+                    _c.trys.push([1, 5, , 9]);
                     if (!!((_a = config.headers["x-toptex-authorization"]) === null || _a === void 0 ? void 0 : _a.length)) return [3 /*break*/, 3];
                     return [4 /*yield*/, authenticate()];
                 case 2:
-                    _b.sent();
-                    _b.label = 3;
+                    _c.sent();
+                    _c.label = 3;
                 case 3: return [4 /*yield*/, fetchFn()];
                 case 4:
-                    response = _b.sent();
+                    response = _c.sent();
+                    if (!((_b = response.data.items) === null || _b === void 0 ? void 0 : _b.length)) {
+                        console.log(response);
+                        throw new Error("Response has no items");
+                    }
                     return [2 /*return*/, response.data];
                 case 5:
-                    e_1 = _b.sent();
+                    e_1 = _c.sent();
                     err = e_1;
                     if (!(err.status === 401)) return [3 /*break*/, 8];
                     return [4 /*yield*/, authenticate()];
                 case 6:
-                    _b.sent();
+                    _c.sent();
                     return [4 /*yield*/, fetchFn()];
                 case 7:
-                    response = _b.sent();
+                    response = _c.sent();
                     return [2 /*return*/, response.data];
                 case 8:
                     console.log(e_1);
@@ -120,33 +126,32 @@ function getProduct(pageSize, pageNumber, totalPages) {
 /**
  * Get all products and output as csv
  */
-function getAndOutputAllProducts(startPage, pageSize, outputDir) {
+function getAndOutputAllProducts(startPage) {
     if (startPage === void 0) { startPage = 1; }
-    if (pageSize === void 0) { pageSize = 100; }
-    if (outputDir === void 0) { outputDir = "output"; }
     return __awaiter(this, void 0, void 0, function () {
         var PAGE_SIZE, START_PAGE, totalPages, firstResponse, _loop_1, i, e_2;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    PAGE_SIZE = pageSize;
+                    PAGE_SIZE = params_1.default.PAGE_SIZE;
                     START_PAGE = startPage;
                     totalPages = 1;
                     _a.label = 1;
                 case 1:
                     _a.trys.push([1, 7, , 8]);
+                    (0, fsUtils_1.deleteAll)();
                     return [4 /*yield*/, getProduct(PAGE_SIZE, START_PAGE)];
                 case 2:
                     firstResponse = _a.sent();
                     console.log("outputting csv for page " + START_PAGE);
-                    (0, toptextToEcwidCsv_1.default)(firstResponse, START_PAGE, outputDir);
+                    (0, toptextToEcwidCsv_1.default)(firstResponse, START_PAGE);
                     totalPages = Math.ceil(firstResponse.total_count / PAGE_SIZE);
                     _loop_1 = function (i) {
                         return __generator(this, function (_b) {
                             switch (_b.label) {
                                 case 0: return [4 /*yield*/, getProduct(PAGE_SIZE, i, totalPages).then(function (res) {
                                         console.log("outputting csv for page " + i);
-                                        (0, toptextToEcwidCsv_1.default)(res, i, outputDir);
+                                        (0, toptextToEcwidCsv_1.default)(res, i);
                                     })];
                                 case 1:
                                     _b.sent();

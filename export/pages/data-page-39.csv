@@ -1,0 +1,566 @@
+type,product_internal_id,product_price,product_name,product_description,product_media_main_image_url,product_brand,product_category_1,product_category_2,product_media_gallery_image_url_1,product_media_gallery_image_url_2,product_media_gallery_image_url_3,product_media_gallery_image_url_4,product_media_gallery_image_url_5,product_media_gallery_image_url_6,product_media_gallery_image_url_7,product_media_gallery_image_url_8,product_media_gallery_image_url_9,product_media_gallery_image_url_10,product_media_gallery_image_url_11,product_media_gallery_image_url_12,product_variation_sku,product_variation_option_Color,product_option_name,product_option_value,product_option_type,product_option_is_required,product_media_gallery_image_url_13,product_media_gallery_image_url_14,product_media_gallery_image_url_15,product_media_gallery_image_url_16,product_media_gallery_image_url_17,product_variation_option_Size
+product,1901,44.94,Damesbadpak,"100% polyester waarvan 43% polybutyleentereftalaat. Heel rekbare stof. Chloorbestendig. UV 50+ bescherming. Blijf beter zitten dankzij de brede schouderbandjes. Hooguitgesneden voor een afslankend effect. Ronde opening ann de achterkant. Voering aan de voorkant om doorschijnen te voorkomen. Dubbel stiksel. Gemaakt in Spanje. Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201768&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201768&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201765&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201770&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201769&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201763&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201764&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201767&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201766&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246342&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246339&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374954&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374955&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Size,XS,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1901,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Red,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69156_69150,Black,,,,,,,,,,XS
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69156_69151,Black,,,,,,,,,,S
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69156_69152,Black,,,,,,,,,,M
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69156_69153,Black,,,,,,,,,,L
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69156_69154,Black,,,,,,,,,,XL
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69156_69155,Black,,,,,,,,,,XXL
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69157_69150,Sporty Dark Navy,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69157_69151,Sporty Dark Navy,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69157_69152,Sporty Dark Navy,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69157_69153,Sporty Dark Navy,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69157_69154,Sporty Dark Navy,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69157_69155,Sporty Dark Navy,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69158_69150,Sporty Red,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69158_69151,Sporty Red,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69158_69152,Sporty Red,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69158_69153,Sporty Red,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69158_69154,Sporty Red,,,,,,,,,,
+product_variation,1901,44.94,,,,,,,,,,,,,,,,,,,PA940_69158_69155,Sporty Red,,,,,,,,,,
+product,1902,43.6,Meisjesbadpak,"100% polyester waarvan 43% polybutyleentereftalaat. Heel rekbare stof. Chloorbestendig. UV 50+ bescherming. Blijf beter zitten dankzij de brede schouderbandjes. Ronde opening ann de achterkant. Voering aan de voorkant om doorschijnen te voorkomen. Dubbel stiksel. Gemaakt in Spanje.  Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=197857&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=197857&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=197858&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=197856&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374953&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Size,6/8 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Size,8/10 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Size,10/12 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Size,12/14 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1902,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Red,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69163_69159,Black,,,,,,,,,,6/8 ans
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69163_69160,Black,,,,,,,,,,8/10 ans
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69163_69161,Black,,,,,,,,,,10/12 ans
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69163_69162,Black,,,,,,,,,,12/14 ans
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69164_69159,Sporty Dark Navy,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69164_69160,Sporty Dark Navy,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69164_69161,Sporty Dark Navy,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69164_69162,Sporty Dark Navy,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69165_69159,Sporty Red,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69165_69160,Sporty Red,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69165_69161,Sporty Red,,,,,,,,,,
+product_variation,1902,43.6,,,,,,,,,,,,,,,,,,,PA941_69165_69162,Sporty Red,,,,,,,,,,
+product,1903,42.3,Damesbadpak,"100% polyester waarvan 43% polybutyleentereftalaat. Heel rekbare stof. Chloorbestendig. UV 50+ bescherming. Ondiepe halsopening vooraan. Biesje en dubbele stiksels voor schouderbandjes, body en beenopening. Hooguitgesneden voor een afslankend effect. Racerback. Voering aan de voorkant om doorschijnen te voorkomen. Gemaakt in Spanje. Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201762&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201762&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201761&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201755&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201756&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201758&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201757&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201754&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201760&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374951&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374952&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Size,XS,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1903,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69172_69166,Black,,,,,,,,,,XS
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69172_69167,Black,,,,,,,,,,S
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69172_69168,Black,,,,,,,,,,M
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69172_69169,Black,,,,,,,,,,L
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69172_69170,Black,,,,,,,,,,XL
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69172_69171,Black,,,,,,,,,,XXL
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69173_69166,Sporty Dark Navy,,,,,,,,,,
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69173_69167,Sporty Dark Navy,,,,,,,,,,
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69173_69168,Sporty Dark Navy,,,,,,,,,,
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69173_69169,Sporty Dark Navy,,,,,,,,,,
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69173_69170,Sporty Dark Navy,,,,,,,,,,
+product_variation,1903,42.3,,,,,,,,,,,,,,,,,,,PA942_69173_69171,Sporty Dark Navy,,,,,,,,,,
+product,1904,47.1,Damesbadpak,"100% polyester waarvan 43% polybutyleentereftalaat. Heel rekbare stof. Chloorbestendig. UV 50+ bescherming. Halsopening rechts vooraan. Biesje en dubbele stiksels voor schouderbandjes en halsopening. Dubbele stiksels aan de achterkant en beenopeningen. Ronde opening op de achterkant. Voorkant bovenaan gevoerd en afgewerkt met een elastiek zodat de borst beter wordt ondersteund. Onderkant gevoerd. Gemaakt in Spanje.  Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201753&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201753&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201752&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201751&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201747&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201749&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201748&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201750&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246346&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246328&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374950&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374949&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Size,XS,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1904,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69180_69174,Black,,,,,,,,,,XS
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69180_69175,Black,,,,,,,,,,S
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69180_69176,Black,,,,,,,,,,M
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69180_69177,Black,,,,,,,,,,L
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69180_69178,Black,,,,,,,,,,XL
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69180_69179,Black,,,,,,,,,,XXL
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69181_69174,Sporty Dark Navy,,,,,,,,,,
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69181_69175,Sporty Dark Navy,,,,,,,,,,
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69181_69176,Sporty Dark Navy,,,,,,,,,,
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69181_69177,Sporty Dark Navy,,,,,,,,,,
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69181_69178,Sporty Dark Navy,,,,,,,,,,
+product_variation,1904,47.1,,,,,,,,,,,,,,,,,,,PA943_69181_69179,Sporty Dark Navy,,,,,,,,,,
+product,1905,28.46,Heren zwemslip,"100% polyester waarvan 55% 43% polybutyleentereftalaat. Chloorbestendig. UV 50+ bescherming. Blijft beter zitten dankzij de aanrijgkoordjes aan de binnenkant. Volledig gevoerd aan de voorkant. Gemaakt in Spanje. Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201571&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201571&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201841&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201570&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246342&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246339&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374946&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374945&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Size,3XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1905,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Red,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69196_69190,Black,,,,,,,,,,S
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69196_69191,Black,,,,,,,,,,M
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69196_69192,Black,,,,,,,,,,L
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69196_69193,Black,,,,,,,,,,XL
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69196_69194,Black,,,,,,,,,,XXL
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69196_69195,Black,,,,,,,,,,3XL
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69197_69190,Sporty Dark Navy,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69197_69191,Sporty Dark Navy,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69197_69192,Sporty Dark Navy,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69197_69193,Sporty Dark Navy,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69197_69194,Sporty Dark Navy,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69197_69195,Sporty Dark Navy,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69198_69190,Sporty Red,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69198_69191,Sporty Red,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69198_69192,Sporty Red,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69198_69193,Sporty Red,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69198_69194,Sporty Red,,,,,,,,,,
+product_variation,1905,28.46,,,,,,,,,,,,,,,,,,,PA950_69198_69195,Sporty Red,,,,,,,,,,
+product,1906,36.26,Herenzwembroek,"100% polyester waarvan 43% polybutyleentereftalaat. Chloorbestendig. UV 50+ bescherming. Blijft beter zitten dankzij de aanrijgkoordjes aan de binnenkant. Volledig gevoerd aan de voorkant. Breedte zijkant : 16 cm. Gemaakt in Spanje. Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.<br/>",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201569&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201569&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201840&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201568&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246335&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246331&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374942&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374941&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Size,3XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1906,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69212_69206,Black,,,,,,,,,,S
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69212_69207,Black,,,,,,,,,,M
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69212_69208,Black,,,,,,,,,,L
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69212_69209,Black,,,,,,,,,,XL
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69212_69210,Black,,,,,,,,,,XXL
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69212_69211,Black,,,,,,,,,,3XL
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69213_69206,Sporty Dark Navy,,,,,,,,,,
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69213_69207,Sporty Dark Navy,,,,,,,,,,
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69213_69208,Sporty Dark Navy,,,,,,,,,,
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69213_69209,Sporty Dark Navy,,,,,,,,,,
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69213_69210,Sporty Dark Navy,,,,,,,,,,
+product_variation,1906,36.26,,,,,,,,,,,,,,,,,,,PA952_69213_69211,Sporty Dark Navy,,,,,,,,,,
+product,1907,27.64,Jongenszwemslip,"100% polyester waarvan 43% polybutyleentereftalaat. Chloorbestendig. UV 50+ bescherming. Blijft beter zitten dankzij de aanrijgkoordjes aan de binnenkant. Volledig gevoerd aan de voorkant. Gemaakt in Spanje.  Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=197853&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=197853&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=197855&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=197854&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374944&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374943&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Size,6/8 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Size,8/10 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Size,10/12 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Size,12/14 ans,RADIOBUTTONS,TRUE,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1907,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Red,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69203_69199,Black,,,,,,,,,,6/8 ans
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69203_69200,Black,,,,,,,,,,8/10 ans
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69203_69201,Black,,,,,,,,,,10/12 ans
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69203_69202,Black,,,,,,,,,,12/14 ans
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69204_69199,Sporty Dark Navy,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69204_69200,Sporty Dark Navy,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69204_69201,Sporty Dark Navy,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69204_69202,Sporty Dark Navy,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69205_69199,Sporty Red,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69205_69200,Sporty Red,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69205_69201,Sporty Red,,,,,,,,,,
+product_variation,1907,27.64,,,,,,,,,,,,,,,,,,,PA951_69205_69202,Sporty Red,,,,,,,,,,
+product,1908,33.7,Herenzwemboxer,"100% polyester waarvan 43% polybutyleentereftalaat. Chloorbestendig. UV 50+ bescherming. Blijft beter zitten dankzij de aanrijgkoordjes aan de binnenkant. Volledig gevoerd aan de voorkant. Breedte zijkant : 28 cm. Gemaakt in Spanje. Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.<br/>",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201839&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201839&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201838&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201837&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246347&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374939&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374940&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Size,3XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1908,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69220_69214,Black,,,,,,,,,,S
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69220_69215,Black,,,,,,,,,,M
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69220_69216,Black,,,,,,,,,,L
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69220_69217,Black,,,,,,,,,,XL
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69220_69218,Black,,,,,,,,,,XXL
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69220_69219,Black,,,,,,,,,,3XL
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69221_69214,Sporty Dark Navy,,,,,,,,,,
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69221_69215,Sporty Dark Navy,,,,,,,,,,
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69221_69216,Sporty Dark Navy,,,,,,,,,,
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69221_69217,Sporty Dark Navy,,,,,,,,,,
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69221_69218,Sporty Dark Navy,,,,,,,,,,
+product_variation,1908,33.7,,,,,,,,,,,,,,,,,,,PA953_69221_69219,Sporty Dark Navy,,,,,,,,,,
+product,1909,7.44,Badmuts voor volwassenen,"100% polyester waarvan 43% polybutyleentereftalaat. Ademende, rekbare stof. Heel chloorbestendig en UV 50+ bescherming. Ergonomisch en comfortabel. Gemaakt in Spanje.  Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=201836&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Headwear & Accessoires,Muts,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201836&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201835&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201834&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201833&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246335&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246331&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374938&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,
+product_option,1909,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1909,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1909,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1909,7.44,,,,,,,,,,,,,,,,,,,PA960_69223_69222,Black,,,,,,,,,,One Size
+product_variation,1909,7.44,,,,,,,,,,,,,,,,,,,PA960_69224_69222,Sporty Dark Navy,,,,,,,,,,
+product,1910,54.5,Damesbadpak,"100% polyester waarvan 43% polybutyleentereftalaat. Chloorbestendig. UV 50+ bescherming. V-hals vooraan. Blijft beter zitten dankzij de brede schouderbandjes, met biesje en dubbele stiksels. Gekruist inzetstuk vooraan met kleine plooien om de buste te accentueren. Decoratief biesje op inzetstuk vooraan. Dubbel stiksel aan de beenopening. Ondiepe halsuitsnijding aan de achterkant. Inzetstuk vooraan en onderkant gevoerd. Gemaakt in Spanje.  Gecertificeerd STANDARD 100 by OEKO-TEX® N° CQ 1007/7, IFTH.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=203402&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Kleding,Maillot de bain,https://media.europeancatalog.com/ws.php?act=download&mamfileid=203402&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=203398&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=203401&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=203397&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=203400&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=203399&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=246359&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374947&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=374948&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Size,XS,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1910,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Dark Navy,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69188_69182,Black,,,,,,,,,,XS
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69188_69183,Black,,,,,,,,,,S
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69188_69184,Black,,,,,,,,,,M
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69188_69185,Black,,,,,,,,,,L
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69188_69186,Black,,,,,,,,,,XL
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69188_69187,Black,,,,,,,,,,XXL
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69189_69182,Sporty Dark Navy,,,,,,,,,,
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69189_69183,Sporty Dark Navy,,,,,,,,,,
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69189_69184,Sporty Dark Navy,,,,,,,,,,
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69189_69185,Sporty Dark Navy,,,,,,,,,,
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69189_69186,Sporty Dark Navy,,,,,,,,,,
+product_variation,1910,54.5,,,,,,,,,,,,,,,,,,,PA944_69189_69187,Sporty Dark Navy,,,,,,,,,,
+product,1911,29,Supima® herenpolo korte mouwen,"95% katoen / 5% elasthan. Piquétricot van Supima® katoen. Heel fijne, zachte en zijdeachtige stof van grote kwaliteit. Kraag in 1x1 ribboord, ton-sur-ton nektape aan de binnenkant van de kraag. Ton-sur-ton lijst met 2 knopen. Versteviging van de schoudernaad met een silicone bandje. De mouwuiteinden en onderkant zijn afgewerkt met een zoompje met dubbel stiksel. Geen merklabel in de kraag, maar enkel een maatlabel voor eenvoudige personalisatie.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=356150&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,Kariban Premium,Kleding,Polo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356150&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356149&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356147&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356146&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356148&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356145&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356144&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356139&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356140&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356137&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356138&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356136&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356143&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356142&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356141&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=372964&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=373048&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,3XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Size,4XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Color,Deep Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1911,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75715,Black,,,,,,,,,,S
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75716,Black,,,,,,,,,,M
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75717,Black,,,,,,,,,,L
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75718,Black,,,,,,,,,,XL
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75719,Black,,,,,,,,,,XXL
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75720,Black,,,,,,,,,,3XL
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75722_75721,Black,,,,,,,,,,4XL
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75715,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75716,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75717,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75718,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75719,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75720,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75723_75721,Deep Navy,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75715,White,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75716,White,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75717,White,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75718,White,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75719,White,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75720,White,,,,,,,,,,
+product_variation,1911,29,,,,,,,,,,,,,,,,,,,PK200_75724_75721,White,,,,,,,,,,
+product,1912,34.76,Supima® herenpolo lange mouwen,"95% katoen / 5% elasthan. Piquétricot van Supima® katoen. Heel fijne, zachte en zijdeachtige stof van grote kwaliteit. Kraag in 1x1 ribboord, ton-sur-ton nektape aan de binnenkant van de kraag. Ton-sur-ton lijst met 2 knopen. Versteviging van de schoudernaad met een silicone bandje. De mouwuiteinden en onderkant zijn afgewerkt met een zoompje met dubbel stiksel.  Geen merklabel in de kraag, maar enkel een maatlabel voor eenvoudige personalisatie.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=356123&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,Kariban Premium,Kleding,Polo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356123&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356122&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356121&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356120&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356119&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356118&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356126&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356125&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356124&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356128&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356127&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=278474&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,https://media.europeancatalog.com/ws.php?act=download&mamfileid=278473&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=278472&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=373043&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=373042&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,3XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Size,4XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Color,Deep Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1912,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75734,Black,,,,,,,,,,S
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75735,Black,,,,,,,,,,M
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75736,Black,,,,,,,,,,L
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75737,Black,,,,,,,,,,XL
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75738,Black,,,,,,,,,,XXL
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75739,Black,,,,,,,,,,3XL
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75741_75740,Black,,,,,,,,,,4XL
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75734,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75735,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75736,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75737,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75738,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75739,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75742_75740,Deep Navy,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75734,White,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75735,White,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75736,White,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75737,White,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75738,White,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75739,White,,,,,,,,,,
+product_variation,1912,34.76,,,,,,,,,,,,,,,,,,,PK202_75743_75740,White,,,,,,,,,,
+product,1913,24,Supima® damespolo korte mouwen,"95% katoen / 5% elasthan. Piquétricot van Supima® katoen. Heel fijne, zachte en zijdeachtige stof van grote kwaliteit. Kraag in 1x1 ribboord, ton-sur-ton nektape aan de binnenkant van de kraag. Ton-sur-ton lijst met 2 knopen. Versteviging van de schoudernaad met een silicone bandje. De mouwuiteinden en onderkant zijn afgewerkt met een zoompje met dubbel stiksel. Geen merklabel in de kraag, maar enkel een maatlabel voor eenvoudige personalisatie.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=356234&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,Kariban Premium,Kleding,Polo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356234&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356233&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356232&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356230&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356229&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356231&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356228&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356139&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356140&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356138&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356137&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=356136&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,https://media.europeancatalog.com/ws.php?act=download&mamfileid=278436&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=278437&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=278435&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=373045&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=373044&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Size,XS,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Size,S,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Size,M,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Size,L,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Size,XL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Size,XXL,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Color,Deep Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1913,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75731_75725,Black,,,,,,,,,,XS
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75731_75726,Black,,,,,,,,,,S
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75731_75727,Black,,,,,,,,,,M
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75731_75728,Black,,,,,,,,,,L
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75731_75729,Black,,,,,,,,,,XL
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75731_75730,Black,,,,,,,,,,XXL
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75732_75725,Deep Navy,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75732_75726,Deep Navy,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75732_75727,Deep Navy,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75732_75728,Deep Navy,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75732_75729,Deep Navy,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75732_75730,Deep Navy,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75733_75725,White,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75733_75726,White,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75733_75727,White,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75733_75728,White,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75733_75729,White,,,,,,,,,,
+product_variation,1913,24,,,,,,,,,,,,,,,,,,,PK201_75733_75730,White,,,,,,,,,,
+product,1914,33.36,Trainingskit,"2 koepels + 3 harde dwarsliggers + 2 clips. Koepel 15cm hoog, lengte  dwarsligger 152 cm",https://media.europeancatalog.com/ws.php?act=download&mamfileid=228381&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228381&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228380&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1914,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_option,1914,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1914,33.36,,,,,,,,,,,,,,,,,,,PA642_39231_39230,Yellow,,,,,,,,,,One Size
+product,1915,2.74,Clips,Plastic clips voor de trainingskit en platte hoepel.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70085&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70085&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1915,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1915,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1915,2.74,,,,,,,,,,,,,,,,,,,PA644_39038_39037,Black,,,,,,,,,,One Size
+product,1916,4.34,Cones,Kegel in soepel PVC. Hoogte 18 cm.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70087&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70087&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1916,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1916,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1916,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1916,4.34,,,,,,,,,,,,,,,,,,,PA645_39040_39039,Red,,,,,,,,,,One Size
+product_variation,1916,4.34,,,,,,,,,,,,,,,,,,,PA645_39041_39039,Yellow,,,,,,,,,,
+product,1917,29,Afbakenkit 40,Kegelvormige afbakingskit eenvoudig te transporteren. Spel van 40 koepelttjes in 4x10 kleuren. Hoogte 5 cm.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228379&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228379&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1917,,,,,,,,,,,,,,,,,,,,,,Color,Red / Yellow / Green / Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1917,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1917,29,,,,,,,,,,,,,,,,,,,PA646_39233_39232,Red / Yellow / Green / Royal Blue,,,,,,,,,,One Size
+product,1918,17.36,Afbakenkit 20,Kegelvormige afbakingskit eenvoudig te transporteren. Spel van 20 koepeltjes in 4x5 kleuren. Hoogte 5 cm.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228378&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228378&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1918,,,,,,,,,,,,,,,,,,,,,,Color,Red / Yellow / Royal Blue / White,RADIOBUTTONS,TRUE,,,,,,
+product_option,1918,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1918,17.36,,,,,,,,,,,,,,,,,,,PA647_39235_39234,Red / Yellow / Royal Blue / White,,,,,,,,,,One Size
+product,1919,2.34,Harde pionnen,Gemaakt van PE. Verkrijgbaar in 2 verschillende hoogtes:  23cm en 30cm.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70093&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70093&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1919,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1919,,,,,,,,,,,,,,,,,,,,,,Size,23 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1919,,,,,,,,,,,,,,,,,,,,,,Size,30 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1919,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1919,2.34,,,,,,,,,,,,,,,,,,,PA650_39048_39046,Red,,,,,,,,,,23 cm
+product_variation,1919,3.34,,,,,,,,,,,,,,,,,,,PA650X_39207_39205,Red,,,,,,,,,,30 cm
+product_variation,1919,2.34,,,,,,,,,,,,,,,,,,,PA650_39047_39046,Yellow,,,,,,,,,,
+product_variation,1919,3.34,,,,,,,,,,,,,,,,,,,PA650X_39206_39205,Yellow,,,,,,,,,,
+product,1920,35.4,Afbakenkit x 60,100% polyethyleen lage dichtheid. Kegeltjeskit met drager. Set van 60 kegeltjes (15 stuks x 4 verschillende kleuren) van 5 cm hoog. Goede zichtbaarheid voor trainingen binnen of op gras.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70094&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70094&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1920,,,,,,,,,,,,,,,,,,,,,,Color,Royal Blue / White / Red / Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_option,1920,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1920,35.4,,,,,,,,,,,,,,,,,,,PA651_54536_54535,Royal Blue / White / Red / Yellow,,,,,,,,,,One Size
+product,1921,7.7,Slalompaal,Ø 25 mm. Hoogte 152 cm.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70095&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70095&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1921,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_option,1921,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1921,7.7,,,,,,,,,,,,,,,,,,,PA652_39053_39052,Yellow,,,,,,,,,,One Size
+product,1922,2.8,Flat Hoop,"Polypropylene, Ø 30cm / Ø 50cm / Ø 60cm.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70096&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70096&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Color,Green,RADIOBUTTONS,TRUE,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Size,30 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Size,50 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Size,60 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Color,Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1922,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1922,2.8,,,,,,,,,,,,,,,,,,,PA653_39184_39180,Green,,,,,,,,,,30 cm
+product_variation,1922,4.1,,,,,,,,,,,,,,,,,,,PA653X_40218_40213,Green,,,,,,,,,,50 cm
+product_variation,1922,4.9,,,,,,,,,,,,,,,,,,,PA653XX_40225_40226,Green,,,,,,,,,,60 cm
+product_variation,1922,2.8,,,,,,,,,,,,,,,,,,,PA653_39183_39180,Red,,,,,,,,,,
+product_variation,1922,4.1,,,,,,,,,,,,,,,,,,,PA653X_40217_40213,Red,,,,,,,,,,
+product_variation,1922,4.9,,,,,,,,,,,,,,,,,,,PA653XX_40224_40226,Red,,,,,,,,,,
+product_variation,1922,2.8,,,,,,,,,,,,,,,,,,,PA653_39182_39180,Royal Blue,,,,,,,,,,
+product_variation,1922,4.1,,,,,,,,,,,,,,,,,,,PA653X_40216_40213,Royal Blue,,,,,,,,,,
+product_variation,1922,4.9,,,,,,,,,,,,,,,,,,,PA653XX_40223_40226,Royal Blue,,,,,,,,,,
+product_variation,1922,2.8,,,,,,,,,,,,,,,,,,,PA653_39181_39180,Yellow,,,,,,,,,,
+product_variation,1922,4.1,,,,,,,,,,,,,,,,,,,PA653X_40215_40213,Yellow,,,,,,,,,,
+product_variation,1922,4.9,,,,,,,,,,,,,,,,,,,PA653XX_40222_40226,Yellow,,,,,,,,,,
+product,1923,3.34,Hoop,"Polypropylene, buis 19mm. Ø 50cm / Ø 60cm / Ø 70cm / Ø 80cm.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70099&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70099&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70097&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=260810&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Color,Green,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Size,50 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Size,60 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Size,70 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Size,80 cm,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Color,Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1923,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1923,3.34,,,,,,,,,,,,,,,,,,,PA656_39191_39187,Green,,,,,,,,,,50 cm
+product_variation,1923,3.44,,,,,,,,,,,,,,,,,,,PA656X_40195_40189,Green,,,,,,,,,,60 cm
+product_variation,1923,3.94,,,,,,,,,,,,,,,,,,,PA656XX_40203_40198,Green,,,,,,,,,,70 cm
+product_variation,1923,4.16,,,,,,,,,,,,,,,,,,,PA656XXX_40211_40207,Green,,,,,,,,,,80 cm
+product_variation,1923,3.34,,,,,,,,,,,,,,,,,,,PA656_39190_39187,Red,,,,,,,,,,
+product_variation,1923,3.44,,,,,,,,,,,,,,,,,,,PA656X_40194_40189,Red,,,,,,,,,,
+product_variation,1923,3.94,,,,,,,,,,,,,,,,,,,PA656XX_40202_40198,Red,,,,,,,,,,
+product_variation,1923,4.16,,,,,,,,,,,,,,,,,,,PA656XXX_40210_40207,Red,,,,,,,,,,
+product_variation,1923,3.34,,,,,,,,,,,,,,,,,,,PA656_39189_39187,Royal Blue,,,,,,,,,,
+product_variation,1923,3.44,,,,,,,,,,,,,,,,,,,PA656X_40193_40189,Royal Blue,,,,,,,,,,
+product_variation,1923,3.94,,,,,,,,,,,,,,,,,,,PA656XX_40201_40198,Royal Blue,,,,,,,,,,
+product_variation,1923,4.16,,,,,,,,,,,,,,,,,,,PA656XXX_40209_40207,Royal Blue,,,,,,,,,,
+product_variation,1923,3.34,,,,,,,,,,,,,,,,,,,PA656_39188_39187,Yellow,,,,,,,,,,
+product_variation,1923,3.44,,,,,,,,,,,,,,,,,,,PA656X_40192_40189,Yellow,,,,,,,,,,
+product_variation,1923,3.94,,,,,,,,,,,,,,,,,,,PA656XX_40200_40198,Yellow,,,,,,,,,,
+product_variation,1923,4.16,,,,,,,,,,,,,,,,,,,PA656XXX_40208_40207,Yellow,,,,,,,,,,
+product,1924,56.06,Snelheidsladder,"Dubbele snelheidsladder. 10 verstelbare laten over een lengte van 4 meter. Ideaal om de snelheid te verhogen, verbetering van de coordinatie en evenwicht. Geleverd in tas.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70100&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70100&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1924,,,,,,,,,,,,,,,,,,,,,,Color,Black / Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_option,1924,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1924,56.06,,,,,,,,,,,,,,,,,,,PA658_48146_48145,Black / Yellow,,,,,,,,,,One Size
+product,1925,30,Shape- And Sprinttrainer,12 latten 6 meter lang en 50 cm breed. Geleverd in een tas.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228377&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228377&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1925,,,,,,,,,,,,,,,,,,,,,,Color,White / Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1925,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1925,30,,,,,,,,,,,,,,,,,,,PA660_39055_39054,White / Red,,,,,,,,,,One Size
+product,1926,3.46,Tag Belt,Verstelbare trainingsriem met gesp en twee stroken die vastzitten met klittenband.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70108&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70108&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70109&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1926,,,,,,,,,,,,,,,,,,,,,,Color,Black / Green,RADIOBUTTONS,TRUE,,,,,,
+product_option,1926,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1926,,,,,,,,,,,,,,,,,,,,,,Color,Black / Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1926,,,,,,,,,,,,,,,,,,,,,,Color,Black / Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1926,,,,,,,,,,,,,,,,,,,,,,Color,Black / Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1926,3.46,,,,,,,,,,,,,,,,,,,PA666_43995_39060,Black / Green,,,,,,,,,,One Size
+product_variation,1926,3.46,,,,,,,,,,,,,,,,,,,PA666_39208_39060,Black / Red,,,,,,,,,,
+product_variation,1926,3.46,,,,,,,,,,,,,,,,,,,PA666_43996_39060,Black / Royal Blue,,,,,,,,,,
+product_variation,1926,3.46,,,,,,,,,,,,,,,,,,,PA666_39061_39060,Black / Yellow,,,,,,,,,,
+product,1927,4.06,Patch,"Bandje met klittenbandsluiting. Aanvoerder: White / Royal Blue (Kapitein" of letter "C" afhankelijk van beschikbaarheid), Coach: Red, Assistent Coach: Yellow, Medisch Personeel: Green en Trainer: Withe (Black of Red tekst afhankelijk van beschikbaarheid).",https://media.europeancatalog.com/ws.php?act=download&mamfileid=228376&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Accessoires,Armhouders,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228376&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228375&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1927,,,,,,,,,,,,,,,,,,,,,,Color,Green,RADIOBUTTONS,TRUE,,,,,,
+product_option,1927,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1927,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1927,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_option,1927,,,,,,,,,,,,,,,,,,,,,,Color,White / Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1927,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1927,4.06,,,,,,,,,,,,,,,,,,,PA677_39220_39217,Green,,,,,,,,,,One Size
+product_variation,1927,4.06,,,,,,,,,,,,,,,,,,,PA677_39218_39217,Red,,,,,,,,,,
+product_variation,1927,4.06,,,,,,,,,,,,,,,,,,,PA677_39221_39217,White,,,,,,,,,,
+product_variation,1927,4.06,,,,,,,,,,,,,,,,,,,PA677C_39225_39222,White / Royal Blue,,,,,,,,,,
+product_variation,1927,4.06,,,,,,,,,,,,,,,,,,,PA677_39219_39217,Yellow,,,,,,,,,,
+product,1928,2.74,Elastisch Armbandje Met Etiket,70% polyester / 30% elasthan. Neutraal armbandje. Witte klittenbandsluiting. Ideaal om te personaliseren dankzij het transparante etikethouder.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=198593&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Accessoires,Armhouders,https://media.europeancatalog.com/ws.php?act=download&mamfileid=198593&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=205171&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=196129&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=205172&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,Fluorescent Orange,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,Fluorescent Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,Green,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1928,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47222_47221,Black,,,,,,,,,,One Size
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47223_47221,Fluorescent Orange,,,,,,,,,,
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47224_47221,Fluorescent Yellow,,,,,,,,,,
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47225_47221,Green,,,,,,,,,,
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47226_47221,Sporty Red,,,,,,,,,,
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47227_47221,Sporty Royal Blue,,,,,,,,,,
+product_variation,1928,2.74,,,,,,,,,,,,,,,,,,,PA678_47228_47221,White,,,,,,,,,,
+product,1929,2.56,Elastisch Armbandje,70% polyester / 30% elasthan. Armbandje zonder bedrukking. Witte klittenbandsluiting. Eenvoudig te personaliseren.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=280519&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Accessoires,Armhouders,https://media.europeancatalog.com/ws.php?act=download&mamfileid=280519&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,Fluorescent Orange,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,Fluorescent Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,Green,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,Sporty Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1929,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45699_45698,Black,,,,,,,,,,One Size
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45700_45698,Fluorescent Orange,,,,,,,,,,
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45701_45698,Fluorescent Yellow,,,,,,,,,,
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45702_45698,Green,,,,,,,,,,
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45703_45698,Sporty Red,,,,,,,,,,
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45704_45698,Sporty Royal Blue,,,,,,,,,,
+product_variation,1929,2.56,,,,,,,,,,,,,,,,,,,PA679_45705_45698,White,,,,,,,,,,
+product,1930,5.44,Referee Note Book,"Boekje met 3 scheidsrechterskaarten, scheidsrechtersformulier en een pen.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70122&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Scheidrechter materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70122&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1930,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1930,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1930,5.44,,,,,,,,,,,,,,,,,,,PA682_39073_39072,Black,,,,,,,,,,One Size
+product,1931,0.96,Referee Cards,Verkrijgbaar in 4 kleuren.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=358032&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Scheidrechter materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=358032&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1931,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1931,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1931,,,,,,,,,,,,,,,,,,,,,,Color,Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1931,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_option,1931,,,,,,,,,,,,,,,,,,,,,,Color,Yellow,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1931,0.96,,,,,,,,,,,,,,,,,,,PA683_39075_39074,Red,,,,,,,,,,One Size
+product_variation,1931,0.96,,,,,,,,,,,,,,,,,,,PA683_39076_39074,Royal Blue,,,,,,,,,,
+product_variation,1931,0.96,,,,,,,,,,,,,,,,,,,PA683_39078_39074,White,,,,,,,,,,
+product_variation,1931,0.96,,,,,,,,,,,,,,,,,,,PA683_39077_39074,Yellow,,,,,,,,,,
+product,1932,10.26,Neck Cords,12 nekkoordjes in 4 verschillende kleuren.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=155686&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Scheidrechter materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=155686&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=228374&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1932,,,,,,,,,,,,,,,,,,,,,,Color,Red / Yellow / Green / Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1932,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1932,10.26,,,,,,,,,,,,,,,,,,,PA687_39080_39079,Red / Yellow / Green / Royal Blue,,,,,,,,,,One Size
+product,1933,8.14,Whistle,Gemaakt van plastic. Geleverd in een doos van 12 stuks.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70129&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Scheidrechter materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70129&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1933,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1933,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1933,,,,,,,,,,,,,,,,,,,,,,Color,Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1933,8.14,,,,,,,,,,,,,,,,,,,PA689_39262_39083,Black,,,,,,,,,,One Size
+product_variation,1933,8.14,,,,,,,,,,,,,,,,,,,PA689_43997_39083,Royal Blue,,,,,,,,,,
+product,1934,7.34,Soccer License Folder,Voetbal licentie houder met ringen. Ruimte voor 18 licenties.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70130&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Sportmateriaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70130&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70131&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1934,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1934,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1934,7.34,,,,,,,,,,,,,,,,,,,PA690_39085_39084,Black,,,,,,,,,,One Size
+product,1935,6.4,Classic Fluitje,Gemaakt van plastic voor scheidsrechters. Geleverd in een blisterverpakking.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70132&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Scheidrechter materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70132&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1935,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1935,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1935,6.4,,,,,,,,,,,,,,,,,,,PA691_39087_39086,Black,,,,,,,,,,One Size
+product,1936,224.94,Mini-compressor,"Mini-compressor met drukmeter en naald. E-waste eco-contributie van €0,0413 voor België.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70134&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Opblaas materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70134&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1936,,,,,,,,,,,,,,,,,,,,,,Color,Orange / Grey,RADIOBUTTONS,TRUE,,,,,,
+product_option,1936,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1936,224.94,,,,,,,,,,,,,,,,,,,PA696_39097_39096,Orange / Grey,,,,,,,,,,One Size
+product,1937,2.7,Pack Of 3 Inflating Needles,3 naalden om ballen op te pompen. Geleverd in een blisterverpakking.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70135&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Opblaas materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70135&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1937,,,,,,,,,,,,,,,,,,,,,,Color,Silver,RADIOBUTTONS,TRUE,,,,,,
+product_option,1937,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1937,2.7,,,,,,,,,,,,,,,,,,,PA697_39099_39098,Silver,,,,,,,,,,One Size
+product,1938,5.24,Pack Of 12 Inflating Needles,12 naalden om ballen op te pompen geleverd in een blisterverpakking.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70136&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Opblaas materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70136&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1938,,,,,,,,,,,,,,,,,,,,,,Color,Silver,RADIOBUTTONS,TRUE,,,,,,
+product_option,1938,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1938,5.24,,,,,,,,,,,,,,,,,,,PA698_39101_39100,Silver,,,,,,,,,,One Size
+product,1939,7.1,Ballenpomp,Ballenpomp geleverd met naald.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70137&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Opblaas materiaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70137&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70138&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1939,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1939,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1939,7.1,,,,,,,,,,,,,,,,,,,PA699_48150_48149,Black,,,,,,,,,,One Size
+product,1940,27.6,Bal X-treme T4,"Wedstrijdrugbybal 4 lagen: 2 katoenlagen en 2 polyesterlagen. Rubberen grip aan buitenkant, competitiekwaliteit, gemaakt in Japan. Binnenbal van hoge kwaliteit. Handgestikte bal. IRB-norm.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70151&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70151&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1940,,,,,,,,,,,,,,,,,,,,,,Color,White / Royal Blue / Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1940,,,,,,,,,,,,,,,,,,,,,,Size,Taille 4,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1940,27.6,,,,,,,,,,,,,,,,,,,PA818_48576_48575,White / Royal Blue / Black,,,,,,,,,,Taille 4
+product,1941,33.74,Bal X-treme T5,"Wedstrijdrugbybal 4 lagen: 2 katoenlagen en 2 polyesterlagen Rubberen grip aan buitenkant, competitie-kwaliteit, gemaakt in Japan. Binnenbal van hoge kwaliteit. Handgestikte bal. IRB-norm.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70152&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70152&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1941,,,,,,,,,,,,,,,,,,,,,,Color,White / Lime / Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1941,,,,,,,,,,,,,,,,,,,,,,Size,Taille 5,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1941,33.74,,,,,,,,,,,,,,,,,,,PA819_48578_48577,White / Lime / Black,,,,,,,,,,Taille 5
+product,1942,16,Bal Challenger T3,Rugbybal met 3 gelamineerde lagen: 2 katoenlagen en 1 polyesterlaag. Latex binnenbal. Grippy afwerking voor gebruik in alle weersomstandigheden. Handgestikt.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70153&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70153&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1942,,,,,,,,,,,,,,,,,,,,,,Color,Orange / Navy / White,RADIOBUTTONS,TRUE,,,,,,
+product_option,1942,,,,,,,,,,,,,,,,,,,,,,Size,Taille 3,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1942,16,,,,,,,,,,,,,,,,,,,PA822_48580_48579,Orange / Navy / White,,,,,,,,,,Taille 3
+product,1943,18.24,Bal Challenger T4,Rugbybal met 3 gelamineerde lagen: 2 katoenlagen en 1 polyesterlaag. Latex binnenbal. Grippy afwerking voor gebruik in alle weersomstandigheden. Handgestikt.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70154&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70154&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1943,,,,,,,,,,,,,,,,,,,,,,Color,Lime / Navy / White,RADIOBUTTONS,TRUE,,,,,,
+product_option,1943,,,,,,,,,,,,,,,,,,,,,,Size,Taille 4,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1943,18.24,,,,,,,,,,,,,,,,,,,PA823_48582_48581,Lime / Navy / White,,,,,,,,,,Taille 4
+product,1944,17.76,Bal Challenger T5,Rugbybal met 3 gelamineerde lagen: 2 katoenlagen en 1 polyesterlaag. Latex binnenbal. Grippy afwerking voor gebruik in alle weersomstandigheden. Handgestikt.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70155&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70155&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201608&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201610&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=201599&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,
+product_option,1944,,,,,,,,,,,,,,,,,,,,,,Color,White / Black / Gold,RADIOBUTTONS,TRUE,,,,,,
+product_option,1944,,,,,,,,,,,,,,,,,,,,,,Size,Taille 5,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1944,17.76,,,,,,,,,,,,,,,,,,,PA824_48584_48583,White / Black / Gold,,,,,,,,,,Taille 5
+product,1945,17.46,Soft Touch Beachvolleybal,Beachvolleybal van PVC met soepele buitenkant. 1 PVC-schuimlaag + 1 katoenlaag.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70156&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70156&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1945,,,,,,,,,,,,,,,,,,,,,,Color,Yellow / Royal Blue / White,RADIOBUTTONS,TRUE,,,,,,
+product_option,1945,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1945,17.46,,,,,,,,,,,,,,,,,,,PA852_48586_48585,Yellow / Royal Blue / White,,,,,,,,,,One Size
+product,1946,15.14,Voetbal Glider 2 maat 3,"Ontwikkeld voor vrijetijdsvoetbal op gras. Opgebouwd uit 32 panelen, body van polyester 3 lagen, met de hand genaaid. Zachte buitenkant voor meer comfort en glanzende PVC-afwerking. Voor kinderen van 5-6 jaar.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70167&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70167&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70166&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1946,,,,,,,,,,,,,,,,,,,,,,Color,White / Lime / Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1946,,,,,,,,,,,,,,,,,,,,,,Size,Taille 3,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1946,15.14,,,,,,,,,,,,,,,,,,,PA874_55824_55823,White / Lime / Black,,,,,,,,,,Taille 3
+product,1947,18.46,Voetbal Glider 2 maat 4,"Ontwikkeld voor vrijetijdsvoetbal op gras. Opgebouwd uit 32 panelen, body van polyester 3 lagen, met de hand genaaid. Zachte buitenkant voor meer comfort en glanzende PVC-afwerking. Voor kinderen van 7 tot 12 jaar",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70168&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70168&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1947,,,,,,,,,,,,,,,,,,,,,,Color,White / Royal Blue / Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1947,,,,,,,,,,,,,,,,,,,,,,Size,Taille 4,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1947,18.46,,,,,,,,,,,,,,,,,,,PA875_55826_55825,White / Royal Blue / Black,,,,,,,,,,Taille 4
+product,1948,19.8,Voetbal Glider 2 maat 5,"Ontwikkeld voor vrijetijdsvoetbal op gras. Opgebouwd uit 32 panelen, body van polyester 3 lagen, met de hand genaaid. Zachte buitenkant voor meer comfort en glanzende PVC-afwerking. Van 12 jaar tot volwassen.",https://media.europeancatalog.com/ws.php?act=download&mamfileid=70170&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,PROACT®,Trainingsmateriaal,Ballen & Accessoires,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70170&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70169&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=198323&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=198321&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=198322&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,
+product_option,1948,,,,,,,,,,,,,,,,,,,,,,Color,White / Red / Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1948,,,,,,,,,,,,,,,,,,,,,,Size,Taille 5,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1948,19.8,,,,,,,,,,,,,,,,,,,PA876_55828_55827,White / Red / Black,,,,,,,,,,Taille 5
+product,1949,16.92,'Colours' Plain Business Scarf,100% polyester. Geschikt voor zeefdruk.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=268726&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,Premier,Kledingaccessoires,Sjaal,https://media.europeancatalog.com/ws.php?act=download&mamfileid=268726&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,https://media.europeancatalog.com/ws.php?act=download&mamfileid=268727&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Black,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Burgundy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Emerald,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Fuchsia,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Gold,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Grey,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Magenta,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Mid Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Navy,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Orange,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Red,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Royal Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Silver,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,Turquoise,RADIOBUTTONS,TRUE,,,,,,
+product_option,1949,,,,,,,,,,,,,,,,,,,,,,Color,White,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_17931_5150,Black,,,,,,,,,,One Size
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_17928_5150,Burgundy,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24893_5150,Emerald,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24898_5150,Fuchsia,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24895_5150,Gold,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24897_5150,Grey,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24890_5150,Magenta,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_26316_5150,Mid Blue,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_5151_5150,Navy,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24899_5150,Orange,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_5153_5150,Red,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_5154_5150,Royal Blue,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_17930_5150,Silver,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_24900_5150,Turquoise,,,,,,,,,,
+product_variation,1949,16.92,,,,,,,,,,,,,,,,,,,PB30_5152_5150,White,,,,,,,,,,
+product,1950,8.52,Multi Stripe Tie,100% geweven polyester. Machine wasbaar.,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70178&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,Premier,Kledingaccessoires,Stropdas,https://media.europeancatalog.com/ws.php?act=download&mamfileid=70178&token=fEP6GP8lqVnvHdxFnIg93eaQ3FTQOo,,,,,,,,,,,,,,,,,,,,,,,
+product_option,1950,,,,,,,,,,,,,,,,,,,,,,Color,Blue,RADIOBUTTONS,TRUE,,,,,,
+product_option,1950,,,,,,,,,,,,,,,,,,,,,,Size,One Size,RADIOBUTTONS,TRUE,,,,,,
+product_variation,1950,8.52,,,,,,,,,,,,,,,,,,,PB60_10108_10106,Blue,,,,,,,,,,One Size

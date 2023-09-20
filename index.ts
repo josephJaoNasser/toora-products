@@ -1,7 +1,6 @@
+import params from "./params";
 import getAndOutputAllProducts from "./resources/fetchData";
 
-const START_PAGE = 1;
-const PAGE_SIZE = 100;
-const OUTPUT_DIR = "export";
+const { START_PAGE } = params;
 
-getAndOutputAllProducts(START_PAGE, PAGE_SIZE, OUTPUT_DIR);
+getAndOutputAllProducts(START_PAGE);

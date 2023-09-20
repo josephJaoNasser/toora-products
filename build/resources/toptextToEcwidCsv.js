@@ -20,6 +20,8 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.combineCsvs = void 0;
+var params_1 = require("../params");
 var path = require("path");
 var fs = require("fs");
 var ProductTypes;
@@ -28,39 +30,26 @@ var ProductTypes;
     ProductTypes["PRODUCT_VARIATION"] = "product_variation";
     ProductTypes["PRODUCT_OPTION"] = "product_option";
 })(ProductTypes || (ProductTypes = {}));
-var LANG = "nl";
-/**
- * Generates a random ID
- * @param length
- * @returns
- */
-function generateRandomID(length) {
-    var charset = "123456789";
-    var id = "";
-    for (var i = 0; i < length; i++) {
-        var randomIndex = Math.floor(Math.random() * charset.length);
-        id += charset.charAt(randomIndex);
-    }
-    return id;
-}
 /**
  * Convert toptext products to ecwid format
  * @returns
  */
-function convertToEcwid(products) {
+function convertToEcwid(products, page) {
+    var LANG = params_1.default.LANG;
     if (!products.items)
         return [];
     var items = products.items;
-    var ecwidProducts = items.map(function (item) {
+    var ecwidProducts = items.map(function (item, index) {
         var _a, _b;
+        var internal_id = (page - 1) * params_1.default.PAGE_SIZE + index + 1;
         var product = {
             type: ProductTypes.PRODUCT,
-            product_internal_id: generateRandomID(16),
+            product_internal_id: internal_id.toString(),
             product_price: item.colors[0].sizes[0].publicUnitPrice
                 .replace(",", ".")
                 .replace(/[^\d.,]/g, ""),
             product_name: item.designation[LANG],
-            product_description: "<p>".concat(item.description[LANG], "</p>"),
+            product_description: "".concat(item.description[LANG]),
             product_media_main_image_url: ((_a = item.images[0]) === null || _a === void 0 ? void 0 : _a.url)
                 ? (_b = item.images[0]) === null || _b === void 0 ? void 0 : _b.url
                 : "",
@@ -73,7 +62,7 @@ function convertToEcwid(products) {
                 ? image.url
                 : "";
         });
-        return __assign(__assign({}, product), createOptionsAndVariations(item));
+        return __assign(__assign({}, product), createOptionsAndVariations(item, product.product_internal_id));
     });
     return ecwidProducts;
 }
@@ -82,7 +71,8 @@ function convertToEcwid(products) {
  * @param item
  * @returns
  */
-function createOptionsAndVariations(item) {
+function createOptionsAndVariations(item, product_internal_id) {
+    var LANG = params_1.default.LANG;
     var product_variations = [];
     var product_options = [];
     var COLOR_OPTION_NAME = "Color";
@@ -90,6 +80,7 @@ function createOptionsAndVariations(item) {
     var _loop_1 = function (color) {
         var productColorOption = {
             type: ProductTypes.PRODUCT_OPTION,
+            product_internal_id: product_internal_id,
             product_option_name: COLOR_OPTION_NAME,
             product_option_value: color.colors[LANG],
             product_option_type: "RADIOBUTTONS",
@@ -97,15 +88,10 @@ function createOptionsAndVariations(item) {
         };
         product_options.push(productColorOption);
         color.sizes.forEach(function (size) {
-            var colorSizeOption = {
-                type: ProductTypes.PRODUCT_OPTION,
-                product_option_name: SIZE_OPTION_NAME,
-                product_option_value: size.sizeCountry[LANG],
-                product_option_type: "RADIOBUTTONS",
-                product_option_is_required: "TRUE",
-            };
+            var duplicateSizeOption = product_options.find(function (option) { return option.product_option_value === size.sizeCountry[LANG]; });
             var productVariation = {
                 type: ProductTypes.PRODUCT_VARIATION,
+                product_internal_id: product_internal_id,
                 product_variation_sku: size.sku,
                 product_price: size.publicUnitPrice
                     .replace(/[^\d.,]/g, "")
@@ -113,10 +99,20 @@ function createOptionsAndVariations(item) {
             };
             productVariation["product_variation_option_".concat(COLOR_OPTION_NAME)] =
                 productColorOption.product_option_value;
-            productVariation["product_variation_option_".concat(SIZE_OPTION_NAME)] =
-                colorSizeOption.product_option_value;
-            product_options.push(colorSizeOption);
             product_variations.push(productVariation);
+            if (!duplicateSizeOption) {
+                var colorSizeOption = {
+                    type: ProductTypes.PRODUCT_OPTION,
+                    product_internal_id: product_internal_id,
+                    product_option_name: SIZE_OPTION_NAME,
+                    product_option_value: size.sizeCountry[LANG],
+                    product_option_type: "RADIOBUTTONS",
+                    product_option_is_required: "TRUE",
+                };
+                productVariation["product_variation_option_".concat(SIZE_OPTION_NAME)] =
+                    colorSizeOption.product_option_value;
+                product_options.push(colorSizeOption);
+            }
         });
     };
     for (var _i = 0, _a = item.colors; _i < _a.length; _i++) {
@@ -165,7 +161,7 @@ function convertToCsv(convertedProducts) {
                 return "";
             if (product[key].includes(","))
                 return "\"".concat(product[key].replace('"', ""), "\"");
-            return product[key];
+            return product[key].replace('"', "");
         });
         row = products.join(",");
         rows.push(row);
@@ -177,7 +173,7 @@ function convertToCsv(convertedProducts) {
                     return "";
                 if (option[key].includes(","))
                     return "\"".concat(option[key].replace('"', ""), "\"");
-                return option[key];
+                return option[key].replace('"', "");
             });
             row = product_options.join(",");
             rows.push(row);
@@ -195,7 +191,7 @@ function convertToCsv(convertedProducts) {
                     return "";
                 if (variant[key].includes(","))
                     return "\"".concat(variant[key].replace('"', ""), "\"");
-                return variant[key];
+                return variant[key].replace('"', "");
             });
             row = product_variations.join(",");
             rows.push(row);
@@ -215,19 +211,54 @@ function convertToCsv(convertedProducts) {
 /**
  * Save csv into a folder
  */
-function outputCsv(products, page, outputDir) {
+function outputCsv(products, page) {
     if (page === void 0) { page = 1; }
-    if (outputDir === void 0) { outputDir = "output"; }
-    var OUTPUT_FOLDER = outputDir;
-    var convertedProducts = convertToEcwid(products);
+    var OUTPUT_FOLDER = params_1.default.OUTPUT_DIR;
+    var convertedProducts = convertToEcwid(products, page);
     var csvData = convertToCsv(convertedProducts);
     var rootPath = path.resolve(__dirname, "../../");
     var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
     if (!fs.existsSync(outputFolder)) {
         fs.mkdirSync(outputFolder);
     }
-    var outputPath = path.join(rootPath, OUTPUT_FOLDER, "data-page-".concat(page, ".csv"));
+    var pagesFolder = path.join(outputFolder, "/pages");
+    if (!fs.existsSync(pagesFolder)) {
+        fs.mkdirSync(pagesFolder);
+    }
+    var outputPath = path.join(pagesFolder, "data-page-".concat(page, ".csv"));
     fs.writeFileSync(outputPath, csvData, { encoding: "utf8" });
 }
+/**
+ * Combine csvs
+ */
+function combineCsvs() {
+    console.log("compiling data");
+    var OUTPUT_FOLDER = params_1.default.OUTPUT_DIR;
+    var rootPath = path.resolve(__dirname, "../../");
+    var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
+    var pagesFolder = path.join(outputFolder, "/pages");
+    var i = 1;
+    while (fs.existsSync(path.join(pagesFolder, "data-page-".concat(i, ".csv")))) {
+        console.log("compiling data-page-".concat(i, ".csv"));
+        var dataPageFile = path.join(pagesFolder, "data-page-".concat(i, ".csv"));
+        var outputPath = path.join(outputFolder, "data-compiled.csv");
+        var pageContent = fs.readFileSync(dataPageFile, "utf8");
+        var content = "";
+        if (fs.existsSync(outputPath)) {
+            content = fs.readFileSync(outputPath, "utf8");
+        }
+        content += pageContent;
+        // if (i > 1) {
+        //   const rows = pageContent.split("\n");
+        //   rows.shift();
+        //   content += "\n" + rows.join("\n");
+        // } else {
+        // }
+        fs.writeFileSync(outputPath, content, { encoding: "utf8" });
+        i += 1;
+    }
+    console.log("data compiled");
+}
+exports.combineCsvs = combineCsvs;
 exports.default = outputCsv;
 //# sourceMappingURL=toptextToEcwidCsv.js.map
