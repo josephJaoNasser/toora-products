@@ -130,6 +130,9 @@ function createOptionsAndVariations(
       productVariation[`product_variation_option_${COLOR_OPTION_NAME}`] =
         productColorOption.product_option_value;
 
+      productVariation[`product_variation_option_${SIZE_OPTION_NAME}`] =
+        size.sizeCountry[LANG];
+
       product_variations.push(productVariation);
 
       if (!duplicateSizeOption) {
@@ -141,9 +144,6 @@ function createOptionsAndVariations(
           product_option_type: "RADIOBUTTONS",
           product_option_is_required: "TRUE",
         };
-
-        productVariation[`product_variation_option_${SIZE_OPTION_NAME}`] =
-          colorSizeOption.product_option_value;
 
         product_options.push(colorSizeOption);
       }
@@ -174,7 +174,7 @@ function convertToCsv(convertedProducts: EcwidProduct[], page: number): string {
     keys = [...keys, ...productRootKeys];
 
     let productOptionKeys;
-    let productVariationKeys;
+    let productVariationKeys = [];
     for (const option of product.product_options) {
       productOptionKeys = Object.keys(option).filter(
         (key) => !keys.includes(key)
@@ -190,10 +190,7 @@ function convertToCsv(convertedProducts: EcwidProduct[], page: number): string {
     keys = [...keys, ...productVariationKeys, ...productOptionKeys];
   }
 
-  let csv = "";
-  if (page === 1) {
-    csv = keys.join(",") + "\n";
-  }
+  let csv = keys.join(",") + "\n";
 
   const rows: string[] = [];
 
@@ -295,7 +292,7 @@ export function combineCsvs() {
     }
 
     if (i > 1) content += "\n";
-    
+
     content += pageContent;
 
     fs.writeFileSync(outputPath, content, { encoding: "utf8" });

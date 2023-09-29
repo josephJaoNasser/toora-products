@@ -5,5 +5,5 @@ import { combineCsvs } from "./resources/toptextToEcwidCsv";
 const { START_PAGE } = params;
 
 getAndOutputAllProducts(START_PAGE).then(() => {
-  combineCsvs();
+  // combineCsvs();
 });

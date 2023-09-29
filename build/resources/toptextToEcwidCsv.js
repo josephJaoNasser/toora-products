@@ -99,6 +99,8 @@ function createOptionsAndVariations(item, product_internal_id) {
             };
             productVariation["product_variation_option_".concat(COLOR_OPTION_NAME)] =
                 productColorOption.product_option_value;
+            productVariation["product_variation_option_".concat(SIZE_OPTION_NAME)] =
+                size.sizeCountry[LANG];
             product_variations.push(productVariation);
             if (!duplicateSizeOption) {
                 var colorSizeOption = {
@@ -109,8 +111,6 @@ function createOptionsAndVariations(item, product_internal_id) {
                     product_option_type: "RADIOBUTTONS",
                     product_option_is_required: "TRUE",
                 };
-                productVariation["product_variation_option_".concat(SIZE_OPTION_NAME)] =
-                    colorSizeOption.product_option_value;
                 product_options.push(colorSizeOption);
             }
         });
@@ -139,7 +139,7 @@ function convertToCsv(convertedProducts, page) {
         });
         keys = __spreadArray(__spreadArray([], keys, true), productRootKeys, true);
         var productOptionKeys = void 0;
-        var productVariationKeys = void 0;
+        var productVariationKeys = [];
         for (var _a = 0, _b = product.product_options; _a < _b.length; _a++) {
             var option = _b[_a];
             productOptionKeys = Object.keys(option).filter(function (key) { return !keys.includes(key); });
@@ -150,10 +150,7 @@ function convertToCsv(convertedProducts, page) {
         }
         keys = __spreadArray(__spreadArray(__spreadArray([], keys, true), productVariationKeys, true), productOptionKeys, true);
     }
-    var csv = "";
-    if (page === 1) {
-        csv = keys.join(",") + "\n";
-    }
+    var csv = keys.join(",") + "\n";
     var rows = [];
     var _loop_2 = function (product) {
         var row = void 0;
