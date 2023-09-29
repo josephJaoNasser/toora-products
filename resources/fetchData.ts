@@ -1,6 +1,6 @@
 import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
 import { products as sampleProduct } from "./products";
-import outputCsv, { combineCsvs } from "./toptextToEcwidCsv";
+import outputCsv from "./toptextToEcwidCsv";
 import credentials from "../credentials";
 import params from "../params";
 import { deleteAll } from "./fsUtils";

@@ -159,7 +159,7 @@ function createOptionsAndVariations(
 /**
  * Converts the ecwid json into csv
  */
-function convertToCsv(convertedProducts: EcwidProduct[]): string {
+function convertToCsv(convertedProducts: EcwidProduct[], page: number): string {
   let keys: string[] = ["type"];
 
   // get all keys
@@ -190,7 +190,11 @@ function convertToCsv(convertedProducts: EcwidProduct[]): string {
     keys = [...keys, ...productVariationKeys, ...productOptionKeys];
   }
 
-  let csv = keys.join(",") + "\n";
+  let csv = "";
+  if (page === 1) {
+    csv = keys.join(",") + "\n";
+  }
+
   const rows: string[] = [];
 
   for (const product of convertedProducts) {
@@ -252,7 +256,7 @@ function outputCsv(products: typeof productSample, page: number = 1) {
   const OUTPUT_FOLDER = params.OUTPUT_DIR;
 
   const convertedProducts = convertToEcwid(products, page);
-  const csvData = convertToCsv(convertedProducts);
+  const csvData = convertToCsv(convertedProducts, page);
   const rootPath = path.resolve(__dirname, "../../");
   const outputFolder = path.join(rootPath, OUTPUT_FOLDER);
 
@@ -274,7 +278,6 @@ function outputCsv(products: typeof productSample, page: number = 1) {
  * Combine csvs
  */
 export function combineCsvs() {
-  console.log("compiling data");
   const OUTPUT_FOLDER = params.OUTPUT_DIR;
   const rootPath = path.resolve(__dirname, "../../");
   const outputFolder = path.join(rootPath, OUTPUT_FOLDER);
@@ -291,13 +294,9 @@ export function combineCsvs() {
       content = fs.readFileSync(outputPath, "utf8");
     }
 
+    if (i > 1) content += "\n";
+    
     content += pageContent;
-    // if (i > 1) {
-    //   const rows = pageContent.split("\n");
-    //   rows.shift();
-    //   content += "\n" + rows.join("\n");
-    // } else {
-    // }
 
     fs.writeFileSync(outputPath, content, { encoding: "utf8" });
     i += 1;

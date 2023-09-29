@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "go": "node build/index.js",
+    "combine": "node build/resources/combine.js",
     "watch": "tsc -w",
     "dev": "tsc -w"
   },

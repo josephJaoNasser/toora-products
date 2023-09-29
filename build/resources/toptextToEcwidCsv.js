@@ -127,7 +127,7 @@ function createOptionsAndVariations(item, product_internal_id) {
 /**
  * Converts the ecwid json into csv
  */
-function convertToCsv(convertedProducts) {
+function convertToCsv(convertedProducts, page) {
     var keys = ["type"];
     // get all keys
     for (var _i = 0, convertedProducts_1 = convertedProducts; _i < convertedProducts_1.length; _i++) {
@@ -150,7 +150,10 @@ function convertToCsv(convertedProducts) {
         }
         keys = __spreadArray(__spreadArray(__spreadArray([], keys, true), productVariationKeys, true), productOptionKeys, true);
     }
-    var csv = keys.join(",") + "\n";
+    var csv = "";
+    if (page === 1) {
+        csv = keys.join(",") + "\n";
+    }
     var rows = [];
     var _loop_2 = function (product) {
         var row = void 0;
@@ -215,7 +218,7 @@ function outputCsv(products, page) {
     if (page === void 0) { page = 1; }
     var OUTPUT_FOLDER = params_1.default.OUTPUT_DIR;
     var convertedProducts = convertToEcwid(products, page);
-    var csvData = convertToCsv(convertedProducts);
+    var csvData = convertToCsv(convertedProducts, page);
     var rootPath = path.resolve(__dirname, "../../");
     var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
     if (!fs.existsSync(outputFolder)) {
@@ -232,7 +235,6 @@ function outputCsv(products, page) {
  * Combine csvs
  */
 function combineCsvs() {
-    console.log("compiling data");
     var OUTPUT_FOLDER = params_1.default.OUTPUT_DIR;
     var rootPath = path.resolve(__dirname, "../../");
     var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
@@ -247,13 +249,9 @@ function combineCsvs() {
         if (fs.existsSync(outputPath)) {
             content = fs.readFileSync(outputPath, "utf8");
         }
+        if (i > 1)
+            content += "\n";
         content += pageContent;
-        // if (i > 1) {
-        //   const rows = pageContent.split("\n");
-        //   rows.shift();
-        //   content += "\n" + rows.join("\n");
-        // } else {
-        // }
         fs.writeFileSync(outputPath, content, { encoding: "utf8" });
         i += 1;
     }
