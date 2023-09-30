@@ -20,7 +20,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.combineCsvs = void 0;
+exports.convertToCsv = void 0;
 var params_1 = require("../params");
 var path = require("path");
 var fs = require("fs");
@@ -127,7 +127,7 @@ function createOptionsAndVariations(item, product_internal_id) {
 /**
  * Converts the ecwid json into csv
  */
-function convertToCsv(convertedProducts, page) {
+function convertToCsv(convertedProducts) {
     var keys = ["type"];
     // get all keys
     for (var _i = 0, convertedProducts_1 = convertedProducts; _i < convertedProducts_1.length; _i++) {
@@ -208,14 +208,15 @@ function convertToCsv(convertedProducts, page) {
     }
     return (csv += rows.join("\n"));
 }
+exports.convertToCsv = convertToCsv;
 /**
- * Save csv into a folder
+ * Save csv and json into a folder
  */
-function outputCsv(products, page) {
+function outputData(products, page) {
     if (page === void 0) { page = 1; }
     var OUTPUT_FOLDER = params_1.default.OUTPUT_DIR;
     var convertedProducts = convertToEcwid(products, page);
-    var csvData = convertToCsv(convertedProducts, page);
+    var csvData = convertToCsv(convertedProducts);
     var rootPath = path.resolve(__dirname, "../../");
     var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
     if (!fs.existsSync(outputFolder)) {
@@ -225,35 +226,12 @@ function outputCsv(products, page) {
     if (!fs.existsSync(pagesFolder)) {
         fs.mkdirSync(pagesFolder);
     }
-    var outputPath = path.join(pagesFolder, "data-page-".concat(page, ".csv"));
-    fs.writeFileSync(outputPath, csvData, { encoding: "utf8" });
+    var outputPathCsv = path.join(pagesFolder, "data-page-".concat(page, ".csv"));
+    var outputPathJson = path.join(pagesFolder, "data-page-".concat(page, ".json"));
+    fs.writeFileSync(outputPathCsv, csvData, { encoding: "utf8" });
+    fs.writeFileSync(outputPathJson, JSON.stringify(convertedProducts, null, 2), {
+        encoding: "utf8",
+    });
 }
-/**
- * Combine csvs
- */
-function combineCsvs() {
-    var OUTPUT_FOLDER = params_1.default.OUTPUT_DIR;
-    var rootPath = path.resolve(__dirname, "../../");
-    var outputFolder = path.join(rootPath, OUTPUT_FOLDER);
-    var pagesFolder = path.join(outputFolder, "/pages");
-    var i = 1;
-    while (fs.existsSync(path.join(pagesFolder, "data-page-".concat(i, ".csv")))) {
-        console.log("compiling data-page-".concat(i, ".csv"));
-        var dataPageFile = path.join(pagesFolder, "data-page-".concat(i, ".csv"));
-        var outputPath = path.join(outputFolder, "data-compiled.csv");
-        var pageContent = fs.readFileSync(dataPageFile, "utf8");
-        var content = "";
-        if (fs.existsSync(outputPath)) {
-            content = fs.readFileSync(outputPath, "utf8");
-        }
-        if (i > 1)
-            content += "\n";
-        content += pageContent;
-        fs.writeFileSync(outputPath, content, { encoding: "utf8" });
-        i += 1;
-    }
-    console.log("data compiled");
-}
-exports.combineCsvs = combineCsvs;
-exports.default = outputCsv;
+exports.default = outputData;
 //# sourceMappingURL=toptextToEcwidCsv.js.map

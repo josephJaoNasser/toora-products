@@ -1,9 +1,9 @@
 import params from "./params";
+import compileData from "./resources/compileData";
 import getAndOutputAllProducts from "./resources/fetchData";
-import { combineCsvs } from "./resources/toptextToEcwidCsv";
 
 const { START_PAGE } = params;
 
 getAndOutputAllProducts(START_PAGE).then(() => {
-  // combineCsvs();
+  compileData();
 });

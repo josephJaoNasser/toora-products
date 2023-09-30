@@ -27,7 +27,7 @@ type ProductVariation = {
   product_price: string;
 };
 
-type EcwidProduct = {
+export type EcwidProduct = {
   type: ProductTypes;
   product_options: ProductOption[];
   product_variations: ProductVariation[];
@@ -159,7 +159,7 @@ function createOptionsAndVariations(
 /**
  * Converts the ecwid json into csv
  */
-function convertToCsv(convertedProducts: EcwidProduct[], page: number): string {
+export function convertToCsv(convertedProducts: EcwidProduct[]): string {
   let keys: string[] = ["type"];
 
   // get all keys
@@ -247,13 +247,13 @@ function convertToCsv(convertedProducts: EcwidProduct[], page: number): string {
 }
 
 /**
- * Save csv into a folder
+ * Save csv and json into a folder
  */
-function outputCsv(products: typeof productSample, page: number = 1) {
+function outputData(products: typeof productSample, page: number = 1) {
   const OUTPUT_FOLDER = params.OUTPUT_DIR;
 
   const convertedProducts = convertToEcwid(products, page);
-  const csvData = convertToCsv(convertedProducts, page);
+  const csvData = convertToCsv(convertedProducts);
   const rootPath = path.resolve(__dirname, "../../");
   const outputFolder = path.join(rootPath, OUTPUT_FOLDER);
 
@@ -267,38 +267,13 @@ function outputCsv(products: typeof productSample, page: number = 1) {
     fs.mkdirSync(pagesFolder);
   }
 
-  const outputPath = path.join(pagesFolder, `data-page-${page}.csv`);
-  fs.writeFileSync(outputPath, csvData, { encoding: "utf8" });
+  const outputPathCsv = path.join(pagesFolder, `data-page-${page}.csv`);
+  const outputPathJson = path.join(pagesFolder, `data-page-${page}.json`);
+
+  fs.writeFileSync(outputPathCsv, csvData, { encoding: "utf8" });
+  fs.writeFileSync(outputPathJson, JSON.stringify(convertedProducts, null, 2), {
+    encoding: "utf8",
+  });
 }
 
-/**
- * Combine csvs
- */
-export function combineCsvs() {
-  const OUTPUT_FOLDER = params.OUTPUT_DIR;
-  const rootPath = path.resolve(__dirname, "../../");
-  const outputFolder = path.join(rootPath, OUTPUT_FOLDER);
-  const pagesFolder = path.join(outputFolder, "/pages");
-  let i = 1;
-  while (fs.existsSync(path.join(pagesFolder, `data-page-${i}.csv`))) {
-    console.log(`compiling data-page-${i}.csv`);
-    const dataPageFile = path.join(pagesFolder, `data-page-${i}.csv`);
-    const outputPath = path.join(outputFolder, `data-compiled.csv`);
-    const pageContent: string = fs.readFileSync(dataPageFile, "utf8");
-    let content = "";
-
-    if (fs.existsSync(outputPath)) {
-      content = fs.readFileSync(outputPath, "utf8");
-    }
-
-    if (i > 1) content += "\n";
-
-    content += pageContent;
-
-    fs.writeFileSync(outputPath, content, { encoding: "utf8" });
-    i += 1;
-  }
-  console.log("data compiled");
-}
-
-export default outputCsv;
+export default outputData;

@@ -1,6 +1,6 @@
 import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
 import { products as sampleProduct } from "./products";
-import outputCsv from "./toptextToEcwidCsv";
+import outputData from "./toptextToEcwidCsv";
 import credentials from "../credentials";
 import params from "../params";
 import { deleteAll } from "./fsUtils";
@@ -85,14 +85,14 @@ export default async function getAndOutputAllProducts(startPage: number = 1) {
     deleteAll();
     const firstResponse = await getProduct(PAGE_SIZE, START_PAGE);
     console.log("outputting csv for page " + START_PAGE);
-    outputCsv(firstResponse, START_PAGE);
+    outputData(firstResponse, START_PAGE);
 
     totalPages = Math.ceil(firstResponse.total_count / PAGE_SIZE);
 
     for (let i = START_PAGE + 1; i <= totalPages; i++) {
       await getProduct(PAGE_SIZE, i, totalPages).then((res) => {
         console.log("outputting csv for page " + i);
-        outputCsv(res, i);
+        outputData(res, i);
       });
     }
   } catch (e) {
