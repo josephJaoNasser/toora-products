@@ -75,9 +75,10 @@ async function getProduct(
 /**
  * Get all products and output as csv
  */
-export default async function getAndOutputAllProducts(startPage: number = 1) {
+export default async function getAndOutputAllProducts() {
+  console.log("fetching products...")
   const PAGE_SIZE = params.PAGE_SIZE;
-  const START_PAGE = startPage;
+  const START_PAGE = params.START_PAGE;
 
   let totalPages = 1;
 

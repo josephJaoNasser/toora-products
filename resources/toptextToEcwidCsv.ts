@@ -67,8 +67,10 @@ function convertToEcwid(
         ? item.images[0]?.url
         : "",
       product_brand: item.brand,
-      product_category_1: item.family[LANG],
-      product_category_2: item.sub_family[LANG],
+      product_category_1:
+        item.family[LANG].split("/").join("\\") +
+        "/" +
+        item.sub_family[LANG].split("/").join("\\"),
     };
 
     item.images.forEach((image, index) => {
@@ -201,10 +203,15 @@ export function convertToCsv(convertedProducts: EcwidProduct[]): string {
     const products: string[] = keys.map((key) => {
       if (!product[key]?.length) return "";
 
-      if (product[key].includes(","))
-        return `"${product[key].replace('"', "")}"`;
+      const val = product[key].replaceAll('"', '""');
 
-      return product[key].replace('"', "");
+      if (key === "product_description") {
+        return `"${val}"`;
+      }
+
+      if (product[key].includes(",")) return `"${val}"`;
+
+      return val;
     });
 
     row = products.join(",");
@@ -216,10 +223,15 @@ export function convertToCsv(convertedProducts: EcwidProduct[]): string {
       const product_options = keys.map((key) => {
         if (!option[key]?.length) return "";
 
-        if (option[key].includes(","))
-          return `"${option[key].replace('"', "")}"`;
+        const val = option[key].replaceAll('"', '""');
 
-        return option[key].replace('"', "");
+        if (option[key].includes(",")) {
+          return `"${val}"`;
+        }
+
+        if (option[key].includes(`"`)) return `${val}`;
+
+        return val;
       });
 
       row = product_options.join(",");
@@ -232,10 +244,13 @@ export function convertToCsv(convertedProducts: EcwidProduct[]): string {
       const product_variations = keys.map((key) => {
         if (!variant[key]?.length) return "";
 
-        if (variant[key].includes(","))
-          return `"${variant[key].replace('"', "")}"`;
+        const val = variant[key].replaceAll('"', '""');
 
-        return variant[key].replace('"', "");
+        if (variant[key].includes(",")) {
+          return `"${val}"`;
+        }
+
+        return val;
       });
 
       row = product_variations.join(",");

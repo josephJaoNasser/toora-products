@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var params_1 = require("../params");
-var fsUtils_1 = require("./fsUtils");
 var toptextToEcwidCsv_1 = require("./toptextToEcwidCsv");
 var path = require("path");
 var fs = require("fs");
@@ -79,11 +78,14 @@ function compiledJsonToCsv() {
     fs.writeFileSync(outputBatchPath.csv, convertedData, { encoding: "utf8" });
 }
 function compileData() {
-    (0, fsUtils_1.deleteCompiled)();
-    compileToJSON();
-    compiledJsonToCsv();
-    console.log("data compiled");
+    try {
+        compileToJSON();
+        compiledJsonToCsv();
+        console.log("data compiled");
+    }
+    catch (e) {
+        console.log(e);
+    }
 }
-compileData();
 exports.default = compileData;
 //# sourceMappingURL=compileData.js.map

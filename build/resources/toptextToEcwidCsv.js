@@ -54,8 +54,9 @@ function convertToEcwid(products, page) {
                 ? (_b = item.images[0]) === null || _b === void 0 ? void 0 : _b.url
                 : "",
             product_brand: item.brand,
-            product_category_1: item.family[LANG],
-            product_category_2: item.sub_family[LANG],
+            product_category_1: item.family[LANG].split("/").join("\\") +
+                "/" +
+                item.sub_family[LANG].split("/").join("\\"),
         };
         item.images.forEach(function (image, index) {
             product["product_media_gallery_image_url_".concat(index + 1)] = (image === null || image === void 0 ? void 0 : image.url)
@@ -159,9 +160,13 @@ function convertToCsv(convertedProducts) {
             var _a;
             if (!((_a = product[key]) === null || _a === void 0 ? void 0 : _a.length))
                 return "";
+            var val = product[key].replaceAll('"', '""');
+            if (key === "product_description") {
+                return "\"".concat(val, "\"");
+            }
             if (product[key].includes(","))
-                return "\"".concat(product[key].replace('"', ""), "\"");
-            return product[key].replace('"', "");
+                return "\"".concat(val, "\"");
+            return val;
         });
         row = products.join(",");
         rows.push(row);
@@ -171,9 +176,13 @@ function convertToCsv(convertedProducts) {
                 var _a;
                 if (!((_a = option[key]) === null || _a === void 0 ? void 0 : _a.length))
                     return "";
-                if (option[key].includes(","))
-                    return "\"".concat(option[key].replace('"', ""), "\"");
-                return option[key].replace('"', "");
+                var val = option[key].replaceAll('"', '""');
+                if (option[key].includes(",")) {
+                    return "\"".concat(val, "\"");
+                }
+                if (option[key].includes("\""))
+                    return "".concat(val);
+                return val;
             });
             row = product_options.join(",");
             rows.push(row);
@@ -189,9 +198,11 @@ function convertToCsv(convertedProducts) {
                 var _a;
                 if (!((_a = variant[key]) === null || _a === void 0 ? void 0 : _a.length))
                     return "";
-                if (variant[key].includes(","))
-                    return "\"".concat(variant[key].replace('"', ""), "\"");
-                return variant[key].replace('"', "");
+                var val = variant[key].replaceAll('"', '""');
+                if (variant[key].includes(",")) {
+                    return "\"".concat(val, "\"");
+                }
+                return val;
             });
             row = product_variations.join(",");
             rows.push(row);

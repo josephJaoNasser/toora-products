@@ -1,5 +1,4 @@
 import params from "../params";
-import { deleteCompiled } from "./fsUtils";
 import { EcwidProduct, convertToCsv } from "./toptextToEcwidCsv";
 const path = require("path");
 const fs = require("fs");
@@ -107,12 +106,14 @@ function compiledJsonToCsv() {
 }
 
 function compileData() {
-  deleteCompiled();
-  compileToJSON();
-  compiledJsonToCsv();
+  try {
+    compileToJSON();
+    compiledJsonToCsv();
+    console.log("data compiled");
+  } catch (e) {
+    console.log(e);
+  }
 
-  console.log("data compiled");
 }
 
-compileData();
 export default compileData;

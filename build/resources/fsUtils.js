@@ -13,6 +13,7 @@ var pagesFolder = path.join(outputFolder, "/pages");
  * Delete compiled data files
  */
 function deleteCompiled() {
+    console.log("deleting compiled data files...");
     var compiledFiles = fs.readdirSync(outputFolder);
     for (var _i = 0, compiledFiles_1 = compiledFiles; _i < compiledFiles_1.length; _i++) {
         var file = compiledFiles_1[_i];
@@ -28,6 +29,7 @@ exports.deleteCompiled = deleteCompiled;
  * Delete page files
  */
 function deletePages() {
+    console.log("deleting pages...");
     var pagesFiles = fs.readdirSync(pagesFolder);
     for (var _i = 0, pagesFiles_1 = pagesFiles; _i < pagesFiles_1.length; _i++) {
         var file = pagesFiles_1[_i];

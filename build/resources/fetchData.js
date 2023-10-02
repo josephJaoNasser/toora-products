@@ -126,15 +126,15 @@ function getProduct(pageSize, pageNumber, totalPages) {
 /**
  * Get all products and output as csv
  */
-function getAndOutputAllProducts(startPage) {
-    if (startPage === void 0) { startPage = 1; }
+function getAndOutputAllProducts() {
     return __awaiter(this, void 0, void 0, function () {
         var PAGE_SIZE, START_PAGE, totalPages, firstResponse, _loop_1, i, e_2;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
+                    console.log("fetching products...");
                     PAGE_SIZE = params_1.default.PAGE_SIZE;
-                    START_PAGE = startPage;
+                    START_PAGE = params_1.default.START_PAGE;
                     totalPages = 1;
                     _a.label = 1;
                 case 1:
